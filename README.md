@@ -25,8 +25,7 @@ where $\theta = \mathsf{d}(v, w) \triangleq \arccos(v^\top w)$ denotes the great
 We define
 
 $$
-\gamma_j(t; \xi_i, \ldots, \xi_{i+j})
-=
+\gamma_j(t; \xi_i, \ldots, \xi_{i+j}) =
 \gamma_1 \left\{ t; \gamma_{j-1}(t; \xi_{i : i+j-1}), \gamma_{j-1}(t; \xi_{i+1 : i + j}) \right\} \for t \in \mathbb{I},
 $$
 
