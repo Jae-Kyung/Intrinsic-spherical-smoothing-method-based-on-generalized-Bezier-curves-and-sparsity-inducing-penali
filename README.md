@@ -10,7 +10,7 @@ where $t_n \in \mathbb{I}$ are the given time points
 and $y_n$ are the associated data points on $\mathbb{S}$. 
 Our goal is to find a spherical B \'e zier curve that fits the data well.
 
-## Spherical B \'e zier curve
+## Spherical B\'ezier curve
 
 A linear B\'ezier curve $\gamma_1: \mathbb{I} \to \mathbb{S}$ is simply a geodesic segment between $v$ and $w$ defined as
 
@@ -56,14 +56,14 @@ $$
 $$
 
 ## Figures
-- Quadratic B \'e zier curve
+- Quadratic B\'ezier curve
 
 ![Fig1-2](https://user-images.githubusercontent.com/84615460/224720400-3556ce28-5948-461f-8875-a30ce0112cca.png)
 
 - Penalization effects
 
-The quadratic B \'e zier curve is to become the below B \'e zier curve when the complexity parameter increases.
-Note that the final is the linear B \'e zier curve
+The quadratic B\'ezier curve is to become the below B\'ezier curve when the complexity parameter increases.
+Note that the final is the linear B\'ezier curve
 
 ![Fig2-2](https://user-images.githubusercontent.com/84615460/224721235-3e4a890b-2d66-4be6-a8ad-05a97794a37d.png)
 ![Fig2-3](https://user-images.githubusercontent.com/84615460/224721284-3d43f64f-b01b-4857-a544-d10abda48cf9.png)
