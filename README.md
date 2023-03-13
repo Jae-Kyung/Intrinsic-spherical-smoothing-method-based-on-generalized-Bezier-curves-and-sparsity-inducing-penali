@@ -5,7 +5,7 @@ The penalization scheme induces the order selection and select an appropricate s
 
 ## Data
 
-Let $\{(t_n, y_n)\}_{n=1}^N$ be a set of data, 
+Let $\left\{ (t_n, y_n) \right\}_{n=1}^N$ be a set of data, 
 where $t_n \in \mathbb{I}$ are the given time points 
 and $y_n$ are the associated data points on $\mathbb{S}$. 
 Our goal is to find a spherical B \'e zier curve that fits the data well.
