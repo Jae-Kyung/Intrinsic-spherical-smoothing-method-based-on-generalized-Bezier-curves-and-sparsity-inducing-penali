@@ -23,7 +23,9 @@ $$
 where $\theta = \mathsf{d}(v, w) \triangleq \arccos(v^\top w)$ denotes the great circle distance between $v$ and $w$.
 
 The curve 
+
 $$
 \gamma_J (t; \xi) \triangleq \gamma_J(t; \xi_0, \ldots, \xi_J) \for t \in \mathbb{I}
 $$
+
 is called the spherical B\'ezier curve of degree $J$ (order $J+1$) with control points $\xi_0, \ldots, \xi_J$.
