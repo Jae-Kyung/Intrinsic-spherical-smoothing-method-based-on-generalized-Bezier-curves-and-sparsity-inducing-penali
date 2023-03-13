@@ -10,7 +10,7 @@ where $t_n \in \mathbb{I}$ are the given time points
 and $y_n$ are the associated data points on $\mathbb{S}$. 
 Our goal is to find a spherical B \'e zier curve that fits the data well.
 
-## B \'e zier curve
+## Spherical B \'e zier curve
 
 A linear B\'ezier curve $\gamma_1: \mathbb{I} \to \mathbb{S}$ is simply a geodesic segment between $v$ and $w$ defined as
 
@@ -29,3 +29,26 @@ $$
 $$
 
 is called the spherical B\'ezier curve of degree $J$ (order $J+1$) with control points $\xi_0, \ldots, \xi_J$.
+
+## Objective function
+
+The objective function to minimize is given by
+
+$$
+\ell^\lambda(\xi) = \ell(\xi) + \lambda \ms{p}(\xi) \for \xi \in \Omega,
+$$
+
+where $\lambda > 0$ is the complexity parameter.
+
+## Estimator 
+For a fixed $\lambda$, the penalized intrinsic spherical B\'ezier (PISB) curve is defined as
+
+$$
+\gamma_J (\cdot; \hat{\xi}_\lambda),
+$$
+
+where
+
+$$
+\hat{\xi}_\lambda = \argmin_{\xi \in \Omega} \ell^\lambda(\xi). 
+$$
