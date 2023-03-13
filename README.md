@@ -40,6 +40,7 @@ $$
 $$
 
 where $\lambda > 0$ is the complexity parameter.
+As the complexity parameter $\lambda$ increases, the difference in the velocity vectors of the two geodesic segments becomes smaller.
 
 ## Estimator 
 For a fixed $\lambda$, the penalized intrinsic spherical B\'ezier (PISB) curve is defined as
@@ -51,5 +52,5 @@ $$
 where
 
 $$
-\hat{\xi}_\lambda = \argmin_{\xi \in \Omega} \ell^\lambda(\xi). 
+\hat{\xi}_\lambda = \text{argmin}_{\xi \in \Omega} \ell^\lambda(\xi). 
 $$
