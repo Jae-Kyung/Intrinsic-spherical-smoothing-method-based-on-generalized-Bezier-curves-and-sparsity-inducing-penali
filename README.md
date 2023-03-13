@@ -35,7 +35,8 @@ is called the spherical B\'ezier curve of degree $J$ (order $J+1$) with control 
 The objective function to minimize is given by
 
 $$
-\ell^\lambda(\xi) = \ell(\xi) + \lambda \ms{p}(\xi) \for \xi \in \Omega,
+\ell^\lambda(\xi) = \ell(\xi) + \lambda \sum_{j=1}^{J-1} 
+\left| D_j(\xi) \right| \for D_j(\xi) = \dot{\gamma}_1(0; \xi_j, \xi_{j+1}) - \dot{\gamma}_1(1; \xi_{j-1}, \xi_j) \quad \text{for} \quad \xi \in \Omega,
 $$
 
 where $\lambda > 0$ is the complexity parameter.
