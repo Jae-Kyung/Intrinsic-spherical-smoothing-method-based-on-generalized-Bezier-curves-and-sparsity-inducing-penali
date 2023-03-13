@@ -61,6 +61,7 @@ $$
 ![Fig1-2](https://user-images.githubusercontent.com/84615460/224720400-3556ce28-5948-461f-8875-a30ce0112cca.png)
 
 - Penalization effects
+
 The quadratic B \'e zier curve is to become the below B \'e zier curve when the complexity parameter increases.
 Note that the final is the linear B \'e zier curve
 
