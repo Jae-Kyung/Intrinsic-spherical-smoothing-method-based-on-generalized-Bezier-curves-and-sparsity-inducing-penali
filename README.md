@@ -22,11 +22,10 @@ $$
 
 where $\theta = \mathsf{d}(v, w) \triangleq \arccos(v^\top w)$ denotes the great circle distance between $v$ and $w$.
 
-We define
+Define
 
 $$
-\gamma_j(t; \xi_i, \ldots, \xi_{i+j}) =
-\gamma_1 { t; \gamma_{j-1}(t; \xi_{i : i+j-1}), \gamma_{j-1}(t; \xi_{i+1 : i + j}) } \for t \in \mathbb{I},
+\gamma_j(t; \xi_i, \ldots, \xi_{i+j}) = \gamma_1 \left( t; \gamma_{j-1}(t; \xi_{i : i+j-1}), \gamma_{j-1}(t; \xi_{i+1 : i + j}) \right) \quad \text{for} \quad t \in \mathbb{I},
 $$
 
 where $j = 2, \ldots, J$ and $i = 0,\ldots, J - j$. 
