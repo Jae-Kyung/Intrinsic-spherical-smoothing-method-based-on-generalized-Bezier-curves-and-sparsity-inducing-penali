@@ -54,3 +54,10 @@ where
 $$
 \hat{\xi}_\lambda = \text{argmin}_{\xi \in \Omega} \ell^\lambda(\xi). 
 $$
+
+## Figures
+- Quadratic B \'e zier curve
+![Fig1-2](https://user-images.githubusercontent.com/84615460/224720400-3556ce28-5948-461f-8875-a30ce0112cca.png)
+
+- Penalization
+![Fig2-1](https://user-images.githubusercontent.com/84615460/224720428-9e35db3a-4569-4c2a-871e-d9bb413da097.png
