@@ -18,6 +18,6 @@ $$
 \gamma_1(t; v, w) 
 = \frac{\sin((1 - t) \theta)}{\sin\theta} v + \frac{\sin(t \theta)}{\sin\theta} w,
 \quad t \in \mathbb{I},
-
 $$
+
 where $\theta = \mathsf{d}(v, w) \triangleq \arccos(v^\top w)$ denotes the great circle distance between $v$ and $w$.
